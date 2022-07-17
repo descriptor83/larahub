@@ -1,0 +1,41 @@
+.logo{
+  margin: 50px 100px;
+}
+nav{
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-around;
+  height: 150px;
+  
+}
+div[x-show]{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.navbutton{
+  cursor: pointer;
+  
+ 
+}
+input[name = "search"]{
+  border: 1px solid gray;
+  padding: 5px 15px;
+}
+
+div[x-show] a:hover{
+  background-color: darkgrey;
+
+}
+.active{
+  background-color: red;
+  color: white;
+}
+.comment{
+  width: 60%;
+  margin: 20px auto;
+}
+.formpost{
+  padding: 20px;
+  border: 1px solid gray;
+}
